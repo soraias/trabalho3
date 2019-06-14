@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: ". form .";
+}
+form{
+    grid-area: form;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    
+}
